@@ -1,0 +1,18 @@
+name: Validate Content
+on: [pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install -g ajv-cli
+      - name: Validate all content files
+        run: |
+          for f in content/*.json; do
+            echo "Validating $f..."
+            ajv validate -s schema.json -d "$f" --strict=false
+          done
+          echo "All files valid!"
