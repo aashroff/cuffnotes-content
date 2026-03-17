@@ -104,6 +104,15 @@
         {"letter": "S", "text": "Stalking"},
         {"letter": "H", "text": "Honour-based abuse"}
       ]
+    },
+    {
+      "id": "test",
+      "title": "Test",
+      "subtitle": "This is a test section",
+      "color": "#D4594E",
+      "items": [
+        {"letter": "\ud83d\udc8e", "text": "This is a test item with an emoji :)"}
+      ]
     }
   ]
 }
