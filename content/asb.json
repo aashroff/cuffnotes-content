@@ -3,7 +3,7 @@
   "title": "Anti-Social Behaviour",
   "icon": "📢",
   "color": "#E07B39",
-  "version": 1,
+  "version": 2,
   "subcategories": [
     "ASBCPA 2014 Tools",
     "Harassment & Stalking",
@@ -36,7 +36,7 @@
     {
       "id": "asb03",
       "question": "What is a Criminal Behaviour Order (CBO) under the ASBCPA 2014?",
-      "answer": "An order made by a criminal court on conviction for any offence, where the court is satisfied the offender has engaged in behaviour causing harassment, alarm or distress. Can prohibit and require behaviour. Minimum 2 years for adults, 1 year for under-18s.",
+      "answer": "An order made by a court (The Magistrates' Court, Youth Court, or Crown Court) on conviction for any offence, where the court is satisfied the offender has engaged in behaviour causing harassment, alarm or distress. Can prohibit and require behaviour. Minimum 2 years for adults, 1 year for under-18s.\n\nIt can only be issued in conjunction with a sentence that is already imposed or if the individual has a conditional discharge.",
       "statute": "ASBCPA 2014, Part 2",
       "subcategory": "ASBCPA 2014 Tools",
       "difficulty": 2,
