@@ -2,18 +2,6 @@
   "version": 2,
   "sections": [
     {
-      "id": "caution",
-      "title": "The Caution",
-      "subtitle": "Required at point of arrest",
-      "color": "#4DAADB",
-      "items": [
-        {
-          "letter": "📜",
-          "text": "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence."
-        }
-      ]
-    },
-    {
       "id": "isogelwy",
       "title": "ISOGELWY / GOWISELY",
       "subtitle": "Stop & Search Requirements (PACE Code A)",
@@ -54,30 +42,14 @@
       ]
     },
     {
-      "id": "dapip",
-      "title": "DAPIP",
-      "subtitle": "Five Elements of Theft (s1 Theft Act 1968)",
-      "color": "#D4A853",
+      "id": "caution",
+      "title": "The Caution",
+      "subtitle": "Required at point of arrest",
+      "color": "#4DAADB",
       "items": [
         {
-          "letter": "D",
-          "text": "Dishonesty"
-        },
-        {
-          "letter": "A",
-          "text": "Appropriation"
-        },
-        {
-          "letter": "P",
-          "text": "Property"
-        },
-        {
-          "letter": "I",
-          "text": "Identification (belonging to another)"
-        },
-        {
-          "letter": "P",
-          "text": "Permanent deprivation (intention)"
+          "letter": "📜",
+          "text": "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence."
         }
       ]
     },
@@ -118,6 +90,34 @@
         {
           "letter": "8",
           "text": "Prevent disappearance of suspect"
+        }
+      ]
+    },
+    {
+      "id": "dapip",
+      "title": "DAPIP",
+      "subtitle": "Five Elements of Theft (s1 Theft Act 1968)",
+      "color": "#D4A853",
+      "items": [
+        {
+          "letter": "D",
+          "text": "Dishonesty"
+        },
+        {
+          "letter": "A",
+          "text": "Appropriation"
+        },
+        {
+          "letter": "P",
+          "text": "Property"
+        },
+        {
+          "letter": "I",
+          "text": "Identification (belonging to another)"
+        },
+        {
+          "letter": "P",
+          "text": "Permanent deprivation (intention)"
         }
       ]
     },
