@@ -1,6 +1,18 @@
 {
-  "version": 2,
+  "version": 6,
   "sections": [
+    {
+      "id": "caution",
+      "title": "The Caution",
+      "subtitle": "Required at point of arrest",
+      "color": "#4DAADB",
+      "items": [
+        {
+          "letter": "📜",
+          "text": "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence."
+        }
+      ]
+    },
     {
       "id": "isogelwy",
       "title": "ISOGELWY / GOWISELY",
@@ -38,18 +50,6 @@
         {
           "letter": "Y",
           "text": "You are being detained for a search"
-        }
-      ]
-    },
-    {
-      "id": "caution",
-      "title": "The Caution",
-      "subtitle": "Required at point of arrest",
-      "color": "#4DAADB",
-      "items": [
-        {
-          "letter": "📜",
-          "text": "You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence."
         }
       ]
     },
@@ -94,58 +94,6 @@
       ]
     },
     {
-      "id": "dapip",
-      "title": "DAPIP",
-      "subtitle": "Five Elements of Theft (s1 Theft Act 1968)",
-      "color": "#D4A853",
-      "items": [
-        {
-          "letter": "D",
-          "text": "Dishonesty"
-        },
-        {
-          "letter": "A",
-          "text": "Appropriation"
-        },
-        {
-          "letter": "P",
-          "text": "Property"
-        },
-        {
-          "letter": "I",
-          "text": "Identification (belonging to another)"
-        },
-        {
-          "letter": "P",
-          "text": "Permanent deprivation (intention)"
-        }
-      ]
-    },
-    {
-      "id": "assault_ladder",
-      "title": "Assault Ladder",
-      "subtitle": "Escalating offences with max penalties",
-      "color": "#E05252",
-      "items": [
-        {
-          "letter": "1",
-          "text": "Common Assault/Battery (s39 CJA 1988) - 6 months, Summary"
-        },
-        {
-          "letter": "2",
-          "text": "ABH (s47 OAPA 1861) - 5 years, TEW"
-        },
-        {
-          "letter": "3",
-          "text": "GBH/Wounding (s20 OAPA 1861) - 5 years, TEW"
-        },
-        {
-          "letter": "4",
-          "text": "GBH with Intent (s18 OAPA 1861) - Life, Indictable only"
-        }
-      ]
-    },
-    {
       "id": "poa_ladder",
       "title": "Public Order Ladder",
       "subtitle": "POA 1986 offences by severity",
@@ -178,6 +126,30 @@
       ]
     },
     {
+      "id": "assault_ladder",
+      "title": "Assault Ladder",
+      "subtitle": "Escalating offences with max penalties",
+      "color": "#E05252",
+      "items": [
+        {
+          "letter": "1",
+          "text": "Common Assault/Battery (s39 CJA 1988) - 6 months, Summary"
+        },
+        {
+          "letter": "2",
+          "text": "ABH (s47 OAPA 1861) - 5 years, TEW"
+        },
+        {
+          "letter": "3",
+          "text": "GBH/Wounding (s20 OAPA 1861) - 5 years, TEW"
+        },
+        {
+          "letter": "4",
+          "text": "GBH with Intent (s18 OAPA 1861) - Life, Indictable only"
+        }
+      ]
+    },
+    {
       "id": "detention_limits",
       "title": "Detention Time Limits",
       "subtitle": "PACE ss.41-44",
@@ -198,6 +170,34 @@
         {
           "letter": "6h",
           "text": "First review by Inspector, then every 9 hours"
+        }
+      ]
+    },
+    {
+      "id": "dapip",
+      "title": "DAPIP",
+      "subtitle": "Five Elements of Theft (s1 Theft Act 1968)",
+      "color": "#D4A853",
+      "items": [
+        {
+          "letter": "D",
+          "text": "Dishonesty"
+        },
+        {
+          "letter": "A",
+          "text": "Appropriation"
+        },
+        {
+          "letter": "P",
+          "text": "Property"
+        },
+        {
+          "letter": "I",
+          "text": "Identification (belonging to another)"
+        },
+        {
+          "letter": "P",
+          "text": "Permanent deprivation (intention)"
         }
       ]
     },
